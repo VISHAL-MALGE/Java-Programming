@@ -1,0 +1,62 @@
+
+Graph : A graph is a data structure that consists of:
+        - Vertices (Nodes): Points in the graph.
+        - Edges (Connections): Links that connect the vertices.
+
+
+
+        -------- Types of Graphs -------------
+
+        Directed Graph (Digraph):
+        - Edges have a direction (e.g., one-way roads).
+        - Example: Instagram, where "A follows B" doesn’t mean "B follows A."
+
+        Undirected Graph:
+        - Edges have no direction (e.g., mutual friendships or two-way roads).
+        - Example: Facebook, where "A is friends with B" implies "B is friends with A."
+
+        Weighted Graph:
+        - Each edge has a weight or cost (e.g., distance or time between cities).
+        - Example: A Google Maps graph where edges represent travel distances.
+
+        Unweighted Graph:
+        - Edges are not associated with weights.
+        - Example: Simple connections like a social network.
+
+
+
+
+        ----------  Basic Graph Terminologies  -----------------
+
+        Path: A sequence of edges connecting vertices.
+        Cycle: A path that starts and ends at the same vertex.
+        Connected Graph: All vertices are reachable from any vertex.
+        Disconnected Graph: Some vertices are not reachable.
+        Degree of a Vertex: Number of edges connected to a vertex
+
+
+
+        ------------ Graph Representations ---------------------
+
+        Graphs can be represented in two common ways:
+
+        - Adjacency Matrix: A 2D array where Rows and columns represent vertices
+        - Adjacency List: A list where each vertex stores its neighbors
+
+
+
+        ---------- Common Graph Algorithms -----------
+
+        Depth-First Search (DFS):
+        - Explores as far as possible along one branch before backtracking.
+        - Real-World Analogy: Solving a maze by choosing a path and sticking to it until you hit a dead end.
+
+        Breadth-First Search (BFS):
+        - Explores all neighbors of a vertex before moving to the next level.
+        - Real-World Analogy: Spreading news to friends: each person tells all their friends before the news spreads further.
+
+        Dijkstra’s Algorithm:
+        - Finds the shortest path in a weighted graph.
+        - Real-World Analogy: Finding the fastest route on Google Maps.
+
+

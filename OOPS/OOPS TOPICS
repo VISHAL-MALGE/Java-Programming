@@ -1,0 +1,148 @@
+Core OOP Principles (Pillars of OOP)
+------------------------------------------------------------
+1. Encapsulation
+    • Hiding data using private variables.
+    • Accessing/modifying data using getter and setter methods.
+    • Example: Employee class with private salary and methods like getSa1ary()
+
+
+2. Inheritance
+    • Allows a class to acquire properties and methods from another class
+    (parent-child relationship).
+    • Example: car class inheriting from a vehicle class.
+
+
+3. Polymorphism
+    Compile-time Polymorphism (Method Overloading):
+    • Multiple methods with the same name but different parameters.
+
+    Run-time Polymorphism (Method Overriding):
+    • Subclass provides a specific implementation for a method in the parent class.
+    • Use of @Override and super keyword.
+
+
+4. Abstraction
+    • Hiding implementation details and showing only essential features.
+    • Use of abstract classes and interfaces .
+
+
+
+
+
+Key OOP Topics
+------------------------------------------
+
+1. Classes and Objects
+    • Creating classes and objects.
+    • Understanding constructors, attributes, and methods.
+
+
+2.  Constructors
+    • Default constructor.
+    • Parameterized constructor.
+    • Constructor Overloading.
+
+
+3. Method Overloading and Overriding
+    • Overloading: Same method name with different parameter lists.
+    • Overriding: Redefining a parent class method in a subclass.
+
+
+4. Interfaces vs Abstract Classes
+    • Differences between abstract classes and interfaces.
+    • When to use one over the other.
+
+
+5. Access Modifiers
+    • public: Accessible everywhere.
+    • private: Accessible only within the same class.
+    • protected: Accessible within the same package and subclasses.
+    • default: Accessible within the same package.
+
+
+6. Static Members
+    • static methods and variables shared by all objects of a class.
+    • Example: Math.pow() , static counter
+
+
+7. Final Keyword
+    • final variable: Cannot change the value once assigned.
+    • final method: Cannot be overridden in a subclass.
+    • final class: Cannot be extended.
+
+
+8. Super Keyword
+    • Access parent class methods, constructors, or variables.
+
+
+9. This Keyword
+    • Refers to the current object instance.
+    • Used for differentiating between local and instance variables.
+
+
+10. Encapsulation with Validation
+    • Using private variables with validation in setter methods.
+
+
+
+
+
+Advanced OOP Topics
+--------------------------------------------------
+
+1. Inner Classes
+    • Classes defined inside another class (e.g., Static Inner Class, Non-Static
+    Inner Class).
+
+
+ 2. Composition (Has-A Relationship)
+    • One class contains a reference to another class.
+    • Example: car class has an Engine class.
+
+
+3. Aggregation and Association
+    • Aggregation: Weak association between objects (e.g., Library and Books).
+    • Association: General relationship between two objects.
+
+
+4. Object Cloning
+    • Shallow Copy vs Deep Copy.
+    • Using clone() method and Cloneable interface.
+
+
+5. Singleton Class
+    • A class that allows only one instance to be created.
+    • Example: Runtime class in Java.
+
+
+6. Dynamic Method Dispatch
+    • Achieved through runtime polymorphism.
+    • Example: Calling overridden methods using a parent class reference.
+
+
+7. Abstract Classes vs Concrete Classes
+    • Understanding where to use abstraction.
+
+
+8. Interfaces and Multiple Inheritance
+    • Using interfaces to achieve multiple inheritance in Java.
+
+
+9. Enums
+    • Enum type to represent a fixed set of constants.
+    • Example: Days of the Week, Directions.
+
+
+10. Anonymous Classes
+    • Declaring classes without names, often used for short-lived purposes.
+    • Example: Event listeners in Java.
+
+
+
+Best Practices in OOP
+------------------------
+    • Use Encapsulation to secure data and ensure controlled access.
+    • Avoid excessive Inheritance; prefer Composition where possible.
+    • Use Interfaces for defining contracts that multiple classes can implement.
+    • Always write toString() methods for meaningful object representation.
+    • Use polymorphism to write flexible and extensible code.

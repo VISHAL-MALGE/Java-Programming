@@ -1,0 +1,36 @@
+Data Structure : A data structure is a way to organize and store data
+                 so that it can be accessed and modified efficiently
+
+
+   Common Data Structures:
+ Arrays : Like a row of lockers, each holding one value.
+
+ Linked Lists : Like a chain of train cars connected one after another.
+
+ Stacks : Like plates stacked in a cafeteria (Last In, First Out).
+
+ Queues : Like people standing in line (First In, First Out).
+
+ Trees : Like a family tree with branches.
+
+ Graphs : Like a map of cities connected by roads.
+
+ Hash Tables : Like a dictionary where you search by key (word) to find a value (meaning).
+
+
+---------------------------------------------------------------------------------------------------
+
+Algorithm : An algorithm is a step-by-step process or set of rules used to solve a problem.
+
+    Example:
+    Algorithm for making tea:
+
+    Boil water.
+    Add tea leaves.
+    Add sugar and milk.
+    Stir well.
+    Serve the tea.
+
+
+
+

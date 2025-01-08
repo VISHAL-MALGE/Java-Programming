@@ -1,0 +1,50 @@
+------------------- Class-Related Keywords -----------------------
+
+   class      : Used to define a class.
+   interface  : Used to define an interface.
+   extends    : Indicates that a class inherits from a superclass.
+   implements : Used for a class to implement an interface.
+   new        : Used to create a new object.
+   abstract   : Used to define abstract classes and methods.
+   final      : Used to mark a class, method, or variable as unchangeable (non-extendable).
+   static     : Used to declare a member that belongs to the class, rather than an instance.
+   void       : Specifies that a method does not return a value.
+
+
+
+-------------------- Access Modifiers ---------------------
+
+   public    : Makes a class, method, or variable accessible from anywhere.
+   private   : Restricts access to within the same class.
+   protected : Allows access within the same package or subclasses.
+   default (no modifier): Accessible within the same package.
+
+
+
+------------------ Exception Handling Keywords -----------------------------
+
+  try     : Used to start a block of code that might throw an exception.
+  catch   : Used to handle exceptions thrown by the try block.
+  finally : A block that always executes after the try block, regardless of whether an exception was thrown.
+  throw   : Used to explicitly throw an exception.
+  throws  : Declares an exception that might be thrown by a method.
+
+
+
+---------------- Object-Oriented Keywords ( OOPS ) ---------------------------
+
+   this       : Refers to the current object instance.
+   super      : Refers to the parent class object.
+   instanceof : Checks if an object is an instance of a specified class or interface.
+
+
+
+
+
+
+
+   LINK TO Chat-GPT FOR ALL THE TOPIC EXPLANATIONS
+   https://chatgpt.com/share/675e9d34-1ebc-8001-a35f-b1a0ac30eb41
+
+
+
